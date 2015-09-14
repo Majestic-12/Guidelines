@@ -68,3 +68,29 @@ Code | Commentary
 ------------ |-----
 NSUnderlineByWordMask | Okay.
 NSTableViewColumnDidMoveNotification | Okay.
+
+
+# sudo gem install snapshot
+
+```
+snapshot
+```
+
+## sudo gem install snapshot
+
+To skip cleaning the project:
+```
+snapshot --noclean
+```
+
+
+### sudo gem install snapshot
+```objective-c
+#ifdef SNAPSHOT
+// Your Code here
+#endif
+```
+
+sudo gem install snapshot
+
+    sudo gem install snapshot
