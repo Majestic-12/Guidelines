@@ -8,35 +8,14 @@ General Principles
 ###### It is good to be both clear and brief as possible, but clarity shouldn’t suffer because of brevity:
 
 
-| Left-Aligned  | Center Aligned  | Right Aligned |
-| :------------ |:---------------:| -----:|
-| col 3 is      | some wordy text | $1600 |
-| col 2 is      | centered        |   $12 |
-| zebra stripes | are neat        |    $1 |
+Code | Commentary
+:------------ |-----:
+insertObject:atIndex: | Good.
+insert:at: | Not clear; what is being inserted? what does “at” signify?
+removeObjectAtIndex: | Good.
+removeObject: | Good, because it removes object referred to in argument.
+remove: | Not clear; what is being removed?
 
-
-Code
-Commentary
-
-insertObject:atIndex:
-
-Good.
-
-insert:at:
-
-Not clear; what is being inserted? what does “at” signify?
-
-removeObjectAtIndex:
-
-Good.
-
-removeObject:
-
-Good, because it removes object referred to in argument.
-
-remove:
-
-Not clear; what is being removed?
 
 In general, don’t abbreviate names of things. Spell them out, even if they’re long:
 
