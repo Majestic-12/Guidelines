@@ -8,6 +8,13 @@ General Principles
 ###### It is good to be both clear and brief as possible, but clarity shouldn’t suffer because of brevity:
 
 
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
+| col 3 is      | some wordy text | $1600 |
+| col 2 is      | centered        |   $12 |
+| zebra stripes | are neat        |    $1 |
+
+
 Code
 Commentary
 
