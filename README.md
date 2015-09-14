@@ -9,7 +9,7 @@ General Principles
 
 
 Code | Commentary
-:------------ |-----:
+------------ |-----
 insertObject:atIndex: | Good.
 insert:at: | Not clear; what is being inserted? what does “at” signify?
 removeObjectAtIndex: | Good.
