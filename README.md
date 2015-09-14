@@ -31,7 +31,6 @@ However, a handful of abbreviations are truly common and have a long history of 
 
 Avoid ambiguity in API names, such as method names that could be interpreted in more than one way.
 
-
 Code | Commentary
 ------------ |-----
 sendPort | Does it send the port or return it?
@@ -40,16 +39,21 @@ displayName | Does it display a name or return the receiver’s title in the use
 
 **Consistency**
 
-Try to use names consistently throughout the Cocoa programmatic interfaces. If you are unsure, browse the current header files or reference documentation for precedents.
-Consistency is especially important when you have a class whose methods should take advantage of polymorphism. Methods that do the same thing in different classes should have the same name.
+Try to use names consistently throughout the Cocoa programmatic interfaces. 
+
+If you are unsure, browse the current header files or reference documentation for precedents.
+
+Consistency is especially important when you have a class whose methods should take advantage of polymorphism. 
+
+Methods that do the same thing in different classes should have the same name.
 
 
 Code | Commentary
 ------------ |-----
 - (NSInteger)tag | Defined in NSView, NSCell, NSControl.
-- (void)setStringValue:(NSString *)| Defined in a number of Cocoa classes.
+- (void)setStringValue:(NSString *)| Defined in a number of Cocoa 
 
-###### See also Method Arguments.
+See also Method Arguments.
 
 **No Self Reference**
 
