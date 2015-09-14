@@ -16,30 +16,19 @@ remove: | Not clear; what is being removed?
 
 ###### In general, don’t abbreviate names of things. Spell them out, even if they’re long:
 
-Code
-Commentary
+Code | Commentary
+------------ |-----
+destinationSelection | Good.
+destSel | Not clear.
+setBackgroundColor: | Good.
+setBkgdColor: | Not clear.
+remove: | Not clear; what is being removed?
 
-destinationSelection
+###### You may think an abbreviation is well-known, but it might not be, especially if the developer encountering your method or function name has a different cultural and linguistic background.
 
-Good.
+###### However, a handful of abbreviations are truly common and have a long history of use. You can continue to use them; see Acceptable Abbreviations and Acronyms.
 
-destSel
-
-Not clear.
-
-setBackgroundColor:
-
-Good.
-
-setBkgdColor:
-
-Not clear.
-
-You may think an abbreviation is well-known, but it might not be, especially if the developer encountering your method or function name has a different cultural and linguistic background.
-
-However, a handful of abbreviations are truly common and have a long history of use. You can continue to use them; see Acceptable Abbreviations and Acronyms.
-
-Avoid ambiguity in API names, such as method names that could be interpreted in more than one way.
+###### Avoid ambiguity in API names, such as method names that could be interpreted in more than one way.
 
 
 Code
