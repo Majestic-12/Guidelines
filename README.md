@@ -1,12 +1,9 @@
-# Guidelines
-
 General Principles
 ============
 
 **Clarity**
 
-###### It is good to be both clear and brief as possible, but clarity shouldn’t suffer because of brevity:
-
+It is good to be both clear and brief as possible, but clarity shouldn’t suffer because of brevity:
 
 Code | Commentary
 ------------ |-----
@@ -17,7 +14,7 @@ removeObject: | Good, because it removes object referred to in argument.
 remove: | Not clear; what is being removed?
 
 
-In general, don’t abbreviate names of things. Spell them out, even if they’re long:
+###### In general, don’t abbreviate names of things. Spell them out, even if they’re long:
 
 Code
 Commentary
