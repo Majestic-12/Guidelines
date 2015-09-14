@@ -53,7 +53,7 @@ Code | Commentary
 
 **No Self Reference**
 
-Names shouldn’t be self-referential.
+- Names shouldn’t be self-referential.
 
 Code | Commentary
 ------------ |-----
@@ -61,7 +61,7 @@ NSString | Okay.
 NSStringObject | Self-referential.
 
 
-Constants that are masks (and thus can be combined in bitwise operations) are an exception to this rule, as are constants for notification names.
+- Constants that are masks (and thus can be combined in bitwise operations) are an exception to this rule, as are constants for notification names.
 
 
 Code | Commentary
