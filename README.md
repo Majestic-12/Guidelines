@@ -1,4 +1,4 @@
-General Principles
+Coding Guideline
 ============
 
 **Clarity**
