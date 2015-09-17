@@ -1,9 +1,9 @@
-VUDU Continuous Integration for iOS
+Continuous Integration for VUDU iOS
 ============
 
-This guide will help you set up automated UI Unit Test, Code Coverage, MDM and Continuous Integration for your iOS project. 
+This guide will help you set up automated UI Test Unit, Code Coverage, MDM and Continuous Integration for your VUDU iOS project. 
 
-It will help you set up all needed build tools. I tested everything with a fresh El Capitan installation.
+It will help you set up all needed build tools. It has been tested everything with a fresh El Capitan installation.
 
 -------
 <p align="center">
@@ -27,6 +27,28 @@ Requirements:
 Additionally, to an Xcode installation, you also need the Xcode command line tools set up
 
 xcode-select --install
+
+
+## Setting up `UI Test Unit`
+
+Before changing anything, I recommend committing everything in `git` (in case something goes wrong).
+
+When running the setup commands, please read the instructions shown in the terminal. There is usually a reason they are there.
+
+`XCode` will create all necessary files and folders for you with the following command.
+
+fastlane init
+
+1. Confirm until you get asked for your *App Identifier*.
+1. Enter the *App Identifier* (*Bundle Identifier*) of your project.
+1. Enter your *Apple ID*: The username, you enter when you login on iTunes Connect.
+1. If you haven't already used [`deliver`](https://github.com/KrauseFx/deliver):
+- Confirm with `y` to start the setup for [`deliver`](https://github.com/KrauseFx/deliver).
+- If your app is already in the App Store, confirm with `y` to automatically create a configuration for you. If it's not yet in the store, enter `n`.
+1. If you haven't already used [`snapshot`](https://github.com/KrauseFx/snapshot), confirm with `y` if you want your screenshots to be created automatically.
+1. If you want to [`sigh`](https://github.com/KrauseFx/sigh) to download, renew or create your provisioning profiles, confirm with `y`.
+
+That's it, you should have received a success message. 
 
 
 # Apple Guidelines
