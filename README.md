@@ -11,6 +11,7 @@ It will help you set up all needed build tools. I tested everything with a fresh
 <a href="#setting-up-fastlane">Setting up</a> &bull; 
 <a href="#example-project">Example Project</a> &bull; 
 <a href="#example-project">Apple Guidelines</a> &bull; 
+<a href="#Apple-Guidelines">Apple Guidelines</a> &bull; 
 <a href="#Apple-Coding-Style">Apple Coding Style</a> &bull; 
 <a href="#help">Help</a>
 </p>
@@ -30,7 +31,7 @@ Additionally, to an Xcode installation, you also need the Xcode command line too
 xcode-select --install
 
 
-Apple Guidelines
+# Apple Guidelines
 ============
 
 [Designing for Real-World Networks](https://developer.apple.com/library/ios/documentation/NetworkingInternetWeb/Conceptual/NetworkingOverview/WhyNetworkingIsHard/WhyNetworkingIsHard.html).
