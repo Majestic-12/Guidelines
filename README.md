@@ -1,7 +1,7 @@
-Continuous Integration for iOS VUDU Apps
+Continuous Integration for iOS Apps
 ============
 
-This guide will help you set up automated UI Test Unit, Code Coverage, MDM and Continuous Integration for your iOS project in VUDU. 
+This guide will help you set up automated UI Test Unit, Code Coverage, MDM and Continuous Integration for your iOS project. 
 
 It will help you set up all needed build tools. It has been tested everything with a fresh El Capitan installation.
 
