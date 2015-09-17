@@ -1,7 +1,7 @@
-Continuous Integration for VUDU iOS
+Continuous Integration for iOS VUDU Apps
 ============
 
-This guide will help you set up automated UI Test Unit, Code Coverage, MDM and Continuous Integration for your VUDU iOS project. 
+This guide will help you set up automated UI Test Unit, Code Coverage, MDM and Continuous Integration for your iOS project in VUDU. 
 
 It will help you set up all needed build tools. It has been tested everything with a fresh El Capitan installation.
 
@@ -37,14 +37,11 @@ When running the setup commands, please read the instructions shown in the termi
 
 `XCode` will create all necessary files and folders for you with the following command.
 
-fastlane init
+1. Install OS X 10.11.
+1. Install OS X Server 5.
+1. Install XCode 7.1 and above.
+1. Create a new target as `iOS UI Testing Bundle` in XCode.
 
-1. Confirm until you get asked for your *App Identifier*.
-1. Enter the *App Identifier* (*Bundle Identifier*) of your project.
-1. Enter your *Apple ID*: The username, you enter when you login on iTunes Connect.
-1. If you haven't already used [`deliver`](https://github.com/KrauseFx/deliver):
-- Confirm with `y` to start the setup for [`deliver`](https://github.com/KrauseFx/deliver).
-- If your app is already in the App Store, confirm with `y` to automatically create a configuration for you. If it's not yet in the store, enter `n`.
 1. If you haven't already used [`snapshot`](https://github.com/KrauseFx/snapshot), confirm with `y` if you want your screenshots to be created automatically.
 1. If you want to [`sigh`](https://github.com/KrauseFx/sigh) to download, renew or create your provisioning profiles, confirm with `y`.
 
