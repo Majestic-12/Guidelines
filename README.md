@@ -1,4 +1,7 @@
-This guide will help you set up Continuous Delivery for your iOS project. 
+VUDU Continuous Integration for iOS
+============
+
+This guide will help you set up automated UI Unit Test, Code Coverage, MDM ane Continuous Integration for your iOS project. 
 
 It will help you set up all needed build tools. I tested everything with a fresh El Capitan installation.
 
