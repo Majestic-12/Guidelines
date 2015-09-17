@@ -10,7 +10,6 @@ It will help you set up all needed build tools. I tested everything with a fresh
 <a href="#installation">Installation</a> &bull; 
 <a href="#setting-up-fastlane">Setting up</a> &bull; 
 <a href="#example-project">Example Project</a> &bull; 
-<a href="#example-project">Apple Guidelines</a> &bull; 
 <a href="#Apple-Guidelines">Apple Guidelines</a> &bull; 
 <a href="#Apple-Coding-Style">Apple Coding Style</a> &bull; 
 <a href="#help">Help</a>
@@ -21,9 +20,8 @@ It will help you set up all needed build tools. I tested everything with a fresh
 
 Requirements:
 
-- Mac OS 10.11 (El Capitan) or newer
-- Mac OS 10.11 Server or newer
-- Ruby 2.0 or newer (`ruby -v`)
+- OS X 10.11 (El Capitan) or newer
+- OS X Server 5 or newer
 - Xcode 7.1
 
 Additionally, to an Xcode installation, you also need the Xcode command line tools set up
@@ -32,7 +30,6 @@ xcode-select --install
 
 
 # Apple Guidelines
-============
 
 [Designing for Real-World Networks](https://developer.apple.com/library/ios/documentation/NetworkingInternetWeb/Conceptual/NetworkingOverview/WhyNetworkingIsHard/WhyNetworkingIsHard.html).
 
