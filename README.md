@@ -44,9 +44,6 @@ Apple Guidelines
 
 # Apple Coding Style
 
-
-============
-
 **Clarity**
 
 ###### It is good to be both clear and brief as possible, but clarity shouldn’t suffer because of brevity:
